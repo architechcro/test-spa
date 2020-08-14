@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: npm i -g @angular/cli @ionic/cli
+    command: cd app1 && npm install
+    command: cd app2 && npm install
+    command: cd navbar && npm install
